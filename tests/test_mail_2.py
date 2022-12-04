@@ -7,8 +7,8 @@ def set_up():
 
 
 def test_sending_mail_1():
-    print(x)
+    print("Письмо отправлено")
 
 
 def test_sending_mail_2():
-    print(x)
+    print("Письмо отправлено")
