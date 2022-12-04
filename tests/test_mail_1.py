@@ -1,11 +1,3 @@
-import pytest
-
-
-@pytest.fixture()
-def set_up():
-    print("\nВход в систему выполнен")
-    yield
-    print("\nВыход из системы")
 
 
 def test_sending_mail_1(set_up):
