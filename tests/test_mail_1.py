@@ -5,7 +5,7 @@ import pytest
 def set_up():
     print("\nВход в систему выполнен")
     yield
-    print("Выход из системы")
+    print("\nВыход из системы")
 
 
 def test_sending_mail_1(set_up):
